@@ -1,0 +1,127 @@
+# Python 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.pyd
+
+# 虚拟环境 venv / virtualenv / conda
+venv/
+venv3/
+env/
+.env/
+.venv/
+env.bak/
+venv.bak/
+conda_env/
+conda-env/
+
+# Pytest 测试缓存
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# mypy 类型检查缓存
+.mypy_cache/
+dmypy.json
+dmypy.json.log
+
+# ruff / flake8 缓存
+.ruff_cache/
+
+# 日志文件
+*.log
+logs/
+log/
+*.out
+*.err
+
+# 临时文件、缓存、操作系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.tmp/
+tmp/
+temp/
+
+# IDE 编辑器配置
+## PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+## VS Code
+.vscode/
+*.code-workspace
+*.log
+!.vscode/settings.json
+!.vscode/extensions.json
+
+## Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+jupyter_runs/
+
+# 打包、编译、wheel
+*.whl
+*.tar.gz
+*.zip
+*.gz
+
+# 数据库、缓存文件
+*.db
+*.sqlite
+*.sqlite3
+db/
+cache/
+.cached
+*.cache
+
+# 环境变量、密钥配置（重要！防止泄露密码）
+.env
+.env.local
+.env.prod
+.env.dev
+secrets.json
+secret.yaml
+*.pem
+*.key
+
+# 模型、大模型权重、向量库
+*.bin
+*.pth
+*.ckpt
+*.safetensors
+models/
+weights/
+chroma/
+faiss_index/
+vector_db/
+
+# 前端静态资源（全栈项目可选保留注释）
+# static/dist/
+# node_modules/
+# package-lock.json
+# yarn.lock
