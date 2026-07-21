@@ -78,7 +78,7 @@ def generate_employment_certificate(uid: str, cer_type: str) -> str:
         # file_path = OUTPUT_DIR / f'{employee['name']}_income_cert.txt'
         # file_path.write_text(content, encoding='utf-8')
 
-        return (f'[系统提示]已自动为您生成收入证明: \n------------------\n'
+        return (f'[系统成功]已自动为您生成收入证明: \n------------------\n'
                 f'{content}'
                 f'\n-----------------')
 
